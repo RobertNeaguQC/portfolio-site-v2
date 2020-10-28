@@ -1,0 +1,168 @@
+:root{
+    font-family: 'Roboto', sans-serif;
+   
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+body
+{
+    margin: 0;
+    padding: 0;
+}
+a:link {
+    
+    font-weight: 500;
+  }
+  #navbar{
+    padding:0 7rem;
+  }
+  h1{
+      font-size: 48px;
+      font-weight: 700;
+      color:#1E266D;
+  }
+  p{
+font-size: 16px;
+line-height: 27px;
+color: rgba(69, 88, 128, 0.5);
+
+}
+hr{
+  color: #1E266D;
+  height: 2px;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ #imglogo{
+   max-height: 2rem;
+ }
+ /*CONTENT CSS*/
+
+
+   .btnround{
+    border-radius:3rem!important; 
+    padding: 0.5rem 2rem!important;
+    }
+
+  #hero{
+      padding-top: 5rem;
+      height: 85vh;
+      }
+
+.bgcolor{
+   background-color:#eaf3f5;
+}
+
+  #graphic{
+  
+    max-height: 65vh;
+ }
+ .translateicontext{
+   
+  margin-top: 10rem;
+  text-align: center;
+  
+ }
+
+#rightgraphic{
+   margin-top: -5rem;
+   max-height: 650px;
+ 
+}
+#coldr{
+    margin-top: 5rem;
+   
+}
+#products{
+    padding-top: 5rem;
+    
+}
+#portfolio{
+    background-color: #FFF9EA;
+    height: 100vh; 
+}
+#testimonials{
+  padding-top: 15rem;}
+
+#calltoaction{
+height: 20rem;
+background-color: #3751FF;
+margin-top: 6rem;
+
+
+
+}
+#calltoaction h1{
+  color: #FFFF;
+ 
+}
+
+#btncta {
+  border-radius:3rem; 
+    padding: 0.5rem 2rem;
+}
+#footer{
+  height: 60vh;
+  
+}
+#footer a{
+  
+    font-size: 16px;
+    line-height: 27px;
+    color: rgba(69, 88, 128, 0.5);
+       
+}
+
+ /* ///////Media Query////////*/
+  @media (max-width: 575.98px) {
+      
+    #btncontact {
+    display: none;
+      }
+     #phone{
+        margin-left: 0rem!important;
+        padding-top: 2rem;
+         } 
+   
+    #rightgraphic{
+      display: none;
+    
+   }
+   #coldr{
+ 
+    margin:2rem 3rem;
+   }
+   #calltoaction h1{
+    color: #FFFF;
+    font-size: 30px;
+   
+  }
+  #footer{
+    height: 100vh;
+    padding-top: 8rem;
+    
+  }
+   
+}
+  @media (max-width: 767.98px) {
+        #btncontact {
+    display: none;}
+        
+        #phone{
+        margin-left: 0rem!important;    
+        } 
+        #graphic {
+            display: none;
+         }  
+}
+
+@media (min-width:1200px) {
+   
+  }
+  
+
