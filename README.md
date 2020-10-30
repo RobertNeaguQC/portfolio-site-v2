@@ -1,6 +1,6 @@
 # portfolio-site-v2
 
-<h1 align="center">This is a portfolio website started from a design made in Figma .</h1>
+<h3 align="center">This is a portfolio website started from a design made in Figma .</h3>
 <h2 align="center">Robert Neagu | Front-End Developer </h2>
 <p align="center">Live preview: <a href="https://robertneaguqc.github.io/portfolio-site-v2/">Portfolio Website v2</a></p><br>
 <p align="center">
